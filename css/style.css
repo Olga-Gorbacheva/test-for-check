@@ -1,3 +1,81 @@
+* {
+     padding: 0;
+     margin: 0;
+     border: 0;
+   }
+   *, *:before, *:after {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+   }
+
+   :focus, :active {
+     outline: none;
+   }
+   
+   a:focus, a:active {
+     outline: none;
+   }
+
+   nav, footer, header, aside {
+     display: block;
+   }
+
+   html, body {
+     height: 100%;
+     width: 100%;
+     font-size: 100%;
+     line-height: 1;
+     font-size: 14px;
+     -ms-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+     -webkit-text-size-adjust: 100%;
+     
+   }
+   
+   input, button, textarea {
+     font-family: inherit;
+   }
+
+   input::-ms-clear {
+     display: none;
+   }
+   
+   /*убираем крестик в input*/
+   button {
+     cursor: pointer;
+   }
+   
+   button::-moz-focus-inner {
+     padding: 0;
+     border: 0;
+   }
+   
+   /*убираем отступы*/
+   a, a:visited {
+     text-decoration: none;
+   }
+   
+   a:hover {
+     text-decoration: none;
+   }
+   
+   ul li {
+     list-style: none;
+   }
+   
+   /*чистим стили маркированных списков*/
+   img {
+     vertical-align: top;
+   }
+   
+   /*убираем особенности разных браузеров*/
+   h1, h2, h3, h4, h5, h6 {
+     font-size: inherit;
+     font-weight: 400;
+   }
+   
+   /*обнуление всех заголовков*/
+
 @font-face {
  font-family: "Gilroy"; 
  src: url(../fonts/gilroy-regular.woff2),
@@ -38,6 +116,276 @@
     font-weight: 600;
     font-style: normal;
    }
-   body {
+
+
+body {
      font-family: "Gilroy"; 
+     
    }
+   .save {
+     position: relative;
+   }
+
+.mainpage {
+
+
+  max-width: 1920px;
+  font-family: Gilroy;
+  font-style: normal;
+  background-color: #E5E5E5;
+   }
+a {
+     text-decoration: none;
+     color: black;
+     position: relative;
+   
+}
+li{
+     display : inline;
+     width : 600px;
+
+     
+   }
+
+ nav ul li :hover {
+     color:brown;
+
+ }
+
+h1 {
+   position:normal;
+   width: 659px;
+   height: 77px;
+   left: 387px;
+   top: 164px;
+
+/* H1 Bold 72 */
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 87px;
+display: flex;
+align-items: center;
+
+/* Gray 2 */
+
+color: #242424;
+          
+             }
+
+.savelife__text-area {
+     margin: 91px 0 0 8%;
+     font-size: 120%;
+     position: relative;
+  
+     
+}
+ .savelife__image_dog {
+      
+position: absolute;
+width: 718px;
+height: 713px;
+right: 100px;
+top: 0px; 
+
+
+
+               }
+ .savelife_image_cat
+ {
+
+position: absolute;
+width: 483px;
+height: 469px;
+left: 650px;
+top: 470px;
+
+ }
+ .gray {
+          
+          font-family: Gilroy;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 18px;
+          color: #6B6B6B;
+          margin-top: 10px;
+          margin-bottom: 20px;
+      }
+  .b
+      {
+          padding: 5px 33px 5px 32px;
+          left: 0px;
+          right: 0px;
+          top: 0px;
+          bottom: 0px;
+          margin: 91px 0 0 8%;
+          background: #FBC832;
+          border-radius: 58px;
+          -webkit-box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+      }
+ .yellow {
+           color:#c78100;
+           margin-top: 40px;
+           font-size: 24px;
+      }
+
+      .kind-hearts__body {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+                  
+          background-color: white;
+          margin-top: 20%;
+         
+        }
+        
+        .kind-hearts__image {
+          
+          padding: 54px 40px 20px 90px;
+          width: 550px;
+          height: 550px;
+          left: 50px;
+          top: -3px;
+          background: #FAC832;
+          
+        }
+        
+        .kind-hearts__text-area {
+          padding: 0px 20px 20px 20px;
+          max-width: 551px;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 140%;
+          color: #242424;
+          padding-top: 100px;
+          margin-left: 10%;
+          
+        }
+        
+        .kind-hearts__title {
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 120%;
+          color: #C78100;
+          text-align: center;
+        }
+        
+        .kind-hearts__text1 {
+          padding-top: 28px;
+        }
+        
+        .kind-hearts__text2 {
+          padding-top: 20px;
+        }
+
+        .how_help {
+
+          position: absolute;;
+          font-weight: 300;
+          font-size: 28px;
+          line-height: 24px;
+          margin: auto;
+          padding-left: 600px;
+          padding-top: 70px;
+
+
+
+        }
+        .container  {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          min-width: 150px;
+          min-height: 150px;
+          padding-top: 150px;
+          padding: 150px;
+       
+        }
+
+        
+        .container_2 {
+
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          text-align: center;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 140%;
+          padding: 150px;
+          padding-top: 5px;
+          margin-top: -100px;
+
+        }
+
+        .separator__body {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+        }
+        
+        .separator__left-line {
+          height: 2px;
+          width: 43%;
+          background-color: #FFC41E;
+        }
+        
+        .separator__icon img {
+          width: 10vw;
+        }
+        
+        .separator__right-line {
+          height: 2px;
+          width: 43%;
+          background-color: #FFC41E;
+        }
+
+        .home-and-love__body {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+          margin-top: 5px;
+          padding-bottom: 25px;
+        }
+        
+        .home-and-love__body h3 {
+          padding-bottom: 20px;
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 24px;
+          color: #242424;
+        }
+        
+        .home-and-love__container1 {
+          max-width: 389px;
+          margin: 45px;
+        }
+        
+        .home-and-love__container2 {
+          max-width: 389px;
+          margin: 45px;
+        }
+        
